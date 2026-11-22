@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "api-base",
+  "version": "1.2.2",
+  "name": "PvZ Fabric API Base",
+  "description": "Mod facade, mod queries and the Fabric-shaped event bus (io.github.pvzjre.api.event).",
+  "authors": [
+    "PvZ Fabric"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.pvzjre.api.ApiModInitializer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0"
+  }
+}

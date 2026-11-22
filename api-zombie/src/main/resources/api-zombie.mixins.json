@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.pvzjre.api.zombie.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ZombieMixin",
+    "ZombieOverridesMixin",
+    "ZombieStatusMixin",
+    "ZombieCombatMixin",
+    "BoardMixin",
+    "AlmanacMixin",
+    "PlantBurnRowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
